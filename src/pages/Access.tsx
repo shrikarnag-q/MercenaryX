@@ -21,7 +21,7 @@ const emptyBrief: Brief = {
 };
 
 export function Access() {
-  useTitle("Request access");
+  useTitle("Bring the team");
   const [brief, setBrief] = useState<Brief>(emptyBrief);
   const [received, setReceived] = useState<Brief | null>(null);
   const confirmationRef = useRef<HTMLDivElement>(null);
@@ -45,16 +45,16 @@ export function Access() {
         <div>
           <PageHeader
             nested
-            kicker="Access"
-            title="Send the brief."
-            lede="Tell us who you are, which system is at risk, and how fast this is moving. We read every brief. This preview keeps the request in the browser only."
+            kicker="The mission"
+            title="Name the mission."
+            lede="Name the app, the data, or the system, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the request in the browser only."
           />
         </div>
         {received ? (
           <div className="confirmation" role="status" tabIndex={-1} ref={confirmationRef}>
-            <p className="kicker">Introduction received</p>
+            <p className="kicker">Mission received</p>
             <p className="confirm-title">
-              {received.name}, the brief on {received.system} for {received.organization} stays in
+              {received.name}, the mission on {received.system} for {received.organization} stays in
               this session.
             </p>
             <p>Nothing was transmitted. Leave the page and it is gone.</p>
@@ -110,7 +110,7 @@ export function Access() {
             </div>
             <div className="field-row">
               <div className="field">
-                <label htmlFor="system">System at risk</label>
+                <label htmlFor="system">App, data, or system</label>
                 <input
                   id="system"
                   name="system"
@@ -148,7 +148,7 @@ export function Access() {
               />
             </div>
             <button className="btn" type="submit">
-              Request access
+              Bring the team
             </button>
           </form>
         )}

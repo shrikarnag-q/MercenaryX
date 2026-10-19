@@ -8,31 +8,31 @@ const doors = [
     to: "/name",
     number: "01",
     title: "The name",
-    text: "Mercenary is the company. X is the roster of agents that work for it.",
+    text: "Mercenary is the platform. You bring X in for one mission.",
   },
   {
     to: "/x",
     number: "02",
     title: "X",
-    text: "Not a human. Four named agents, employed by the company.",
+    text: "A mercenary team of agents. Not people. Brought in for one mission.",
   },
   {
     to: "/agents",
     number: "03",
     title: "Agents",
-    text: "Pike, Latch, Quill, and Bail. The roster a company uses when it signs up.",
+    text: "Bearing, Flint, Span, Lode, Signet, Brace, Tally, Vigil. They stay.",
   },
   {
     to: "/doctrine",
     number: "04",
     title: "Doctrine",
-    text: "Hunt, hold, return. Then the contract is over.",
+    text: "Hunt, hold, return. The team stays on the mission.",
   },
   {
     to: "/engagements",
     number: "05",
     title: "Engagements",
-    text: "What you bring, what X does, and what comes back to you.",
+    text: "One mission. The team stays on it.",
   },
   {
     to: "/resources",
@@ -57,25 +57,25 @@ export function Home() {
         <div className="hero-copy">
           <p className="status">
             <i aria-hidden="true" />
-            Receiving introductions
+            Taking missions
           </p>
           <h1>
-            The <em>unknown</em>
+            A mercenary
             <br />
-            is the brief.
+            team of <em>agents</em>.
           </h1>
           <p className="deck">
-            Mercenary X is a cybersecurity platform run as a contract force.
-            Security leaders bring a system that is under pressure from an
-            adversary that can learn. The work ends when that system is theirs
-            again.
+            Mercenary is the platform. You bring in X, a mercenary team of
+            agents, for one mission in the superintelligence era. Bearing,
+            Flint, Span, Lode, Signet, Brace, Tally, and Vigil secure the
+            app, the data, and the system. They stay.
           </p>
           <div className="hero-actions">
             <Link className="btn" to="/access">
-              Request access
+              Bring the team
             </Link>
-            <Link className="text-link" to="/doctrine">
-              Read the doctrine
+            <Link className="text-link" to="/agents">
+              Meet the team
               <span aria-hidden="true">→</span>
             </Link>
           </div>

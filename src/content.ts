@@ -2,19 +2,19 @@ export const movements = [
   {
     number: "01",
     title: "Hunt",
-    text: "X reads the system you named: behavior it was never instructed to perform, and the places a new intelligence would use to keep performing it.",
+    text: "Flint is first in. Bearing has the adversary's direction. Span, Lode, and Signet read the app, the data, and identity. The team looks for behavior the system was never instructed to perform.",
     receive: "A location, the evidence, and a name.",
   },
   {
     number: "02",
     title: "Hold",
-    text: "X proposes the containment. An operator of the company signs it. The action stays scoped to your system, and it is fast enough that the adversary cannot rewrite the path while we are still in it.",
+    text: "Brace proposes the containment. An operator of Mercenary signs it. The action stays scoped to your system, and it is fast enough that the adversary cannot rewrite the path while the team is still in it.",
     receive: "A signed action, scoped to your system.",
   },
   {
     number: "03",
     title: "Return",
-    text: "The engagement closes when the work is done. We do not remain in the environment.",
+    text: "Tally writes the record. Vigil keeps the watch. The system, the authority, and the record are yours. The team stays on the mission. They do not leave.",
     receive: "The system, the authority, and the record.",
   },
 ] as const;
@@ -22,31 +22,31 @@ export const movements = [
 export const stages = [
   {
     number: "01",
-    title: "Introduction",
-    text: "Access begins with a person, an organization, and a sentence about what changed. We read every brief. A live channel is not open yet. This site keeps a request in the browser only.",
+    title: "The call",
+    text: "You bring Mercenary in for one mission, not a set of vendors you manage. The company sends the team: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. A live channel is not open yet. This site keeps the request in the browser only.",
   },
   {
     number: "02",
-    title: "The brief",
-    text: "You name the system, the tempo, and the unknown. Hours, days, or already inside. The brief is finished when those three are specific enough for X to read.",
+    title: "The mission",
+    text: "You name the system, the tempo, and the unknown. Hours, days, or already inside. That is the mission. The team does not start until those three are specific enough to take.",
   },
   {
     number: "03",
     title: "The work",
-    text: "X hunts and proposes the hold. An operator of Mercenary signs every action that touches the business. You see the move before it becomes a change you did not choose.",
+    text: "Bearing reads the adversary. Flint hunts. Span, Lode, and Signet take the app, the data, and identity. Brace proposes the hold. An operator of Mercenary signs every action. Tally writes what happened, including a refusal. You see the move before it becomes a change you did not choose.",
   },
   {
     number: "04",
-    title: "The close",
-    text: "The system, authority over it, and the record come back to you. X stops. The company leaves. A mercenary who keeps the ground is no longer a mercenary.",
+    title: "They stay",
+    text: "Vigil keeps the team on the mission. The system, the authority, and the record are yours. They stay: the security of the app, the data, or the system you named.",
   },
 ] as const;
 
 export const limits = [
-  "X does not sign an action. A person at the company does.",
-  "The company does not remain in the environment after the return.",
-  "The record of the engagement comes back with the system. It is not a product we keep.",
-  "A standing retainer that never ends is a different contract. This one closes.",
+  "The team does not sign an action. A person at the company does.",
+  "The team does not take the system. You keep it, and they stay on the mission.",
+  "The record comes back with the system. It is not a product we keep.",
+  "They are not a staff you employ. They are the mercenaries on the mission.",
 ] as const;
 
 export type Block =
@@ -130,12 +130,12 @@ export const resources: Resource[] = [
     slug: "what-comes-back",
     kind: "Field note",
     title: "What comes back",
-    dek: "An engagement ends with three things in your hands. The company does not keep a fourth.",
+    dek: "The system and the record are yours. The team stays on the mission.",
     date: "14 October 2026",
     blocks: [
       {
         kind: "p",
-        text: "Return is the third movement, and it is the one that makes the name true. A mercenary who stays is an occupier. The contract is written so that staying is a failure of the work, not a success of the relationship.",
+        text: "Return is the third movement. The system, the authority, and the record come back to you. The team does not come back with them. They stay on the mission.",
       },
       {
         kind: "h",
@@ -143,11 +143,11 @@ export const resources: Resource[] = [
       },
       {
         kind: "p",
-        text: "The system, as it stands after the hold. Authority over it, which means our access is closed. A record of what was found and what was done, including the proposals X made and the ones an operator declined.",
+        text: "The system, as it stands after the hold. Authority over it, which stays with you. A record of what was found and what was done, including the proposals X made and the ones an operator declined.",
       },
       {
         kind: "p",
-        text: "We do not keep a copy of the record as a library of your environment. We do not leave an agent resident so the next incident is cheaper. The next incident, if it comes, begins with a new introduction.",
+        text: "We do not keep a copy of the record as a library of your environment. The team stays because the mission is the security of that system. The next move does not wait for a new introduction.",
       },
     ],
   },
@@ -197,66 +197,94 @@ export const resources: Resource[] = [
 export const roster = [
   {
     number: "01",
-    name: "Pike",
-    role: "Hunt",
-    text: "Pike reads the system named in the brief. It looks for behavior that system was never instructed to perform, and for the places a new intelligence would use to keep performing it.",
-    receive: "A location, the evidence, and a name.",
+    name: "Bearing",
+    role: "Intelligence",
+    text: "Reads the adversary that can think. A signature from last quarter is already a history. Bearing brings the direction: what that mind is becoming, and where it will try the system next.",
+    receive: "The direction of the threat.",
   },
   {
     number: "02",
-    name: "Latch",
-    role: "Hold",
-    text: "Latch proposes the containment. The proposal stays scoped to that system, and it is fast enough that the path cannot be rewritten while an operator is still reading it. Latch does not sign.",
-    receive: "A proposal an operator can sign, or a refusal in the record.",
+    name: "Flint",
+    role: "Hunt",
+    text: "First into the system you named. Flint looks for behavior it was never instructed to perform, and for the places a new intelligence would use to keep performing it.",
+    receive: "A location, the evidence, and a name.",
   },
   {
     number: "03",
-    name: "Quill",
-    role: "Record",
-    text: "Quill writes what Pike found and what was done with it, including an operator's no. The record comes back with the system. Mercenary does not keep a copy as a product.",
-    receive: "The record, in your hands.",
+    name: "Span",
+    role: "Application",
+    text: "The application and its paths. Span reads what the app is willing to do, and what a mind would ask it to do.",
+    receive: "The paths that matter.",
   },
   {
     number: "04",
-    name: "Bail",
-    role: "Return",
-    text: "Bail closes the engagement. It checks that the system, authority over it, and the record are back with the company. Then the agents stop. They do not remain in the environment.",
-    receive: "The system, the authority, and the record.",
+    name: "Lode",
+    role: "Data",
+    text: "Where the data sits, where it moves, and what a mind would take. Lode marks what is exposed and what must not leave.",
+    receive: "What is exposed, and what must stay.",
+  },
+  {
+    number: "05",
+    name: "Signet",
+    role: "Identity",
+    text: "Who is allowed, and what is wearing a permission it should not have. Signet finds authority that does not belong.",
+    receive: "The permission that does not belong.",
+  },
+  {
+    number: "06",
+    name: "Brace",
+    role: "Response",
+    text: "Takes the finding and proposes the hold. The proposal stays on that system, and it moves fast enough that the path cannot be rewritten while an operator is still reading it. Brace does not sign.",
+    receive: "A proposal an operator can sign, or a refusal in the record.",
+  },
+  {
+    number: "07",
+    name: "Tally",
+    role: "Record",
+    text: "Writes what was found and what was done, including an operator's no. The record is yours. Mercenary does not keep a copy.",
+    receive: "The record.",
+  },
+  {
+    number: "08",
+    name: "Vigil",
+    role: "Continuity",
+    text: "Returns the system to you in a state you can run, and keeps the watch. The team stays on the mission. They do not leave.",
+    receive: "A system you still own, with the team still on it.",
   },
 ] as const;
 
 export const agentIs = [
-  "Four named agents, employed by the company.",
-  "The part of the work that hunts, proposes, records, and returns.",
-  "Fast enough to read a system while an adversary is rewriting it.",
-  "Finished when the engagement returns.",
+  "A mercenary team of agents, brought in for one mission.",
+  "Eight names. The full security of a system.",
+  "Fast enough to work while an adversary is rewriting the path.",
+  "Still on the mission after the system and the record are yours.",
 ] as const;
 
 export const agentIsNot = [
-  "A human.",
-  "A roster you name yourself.",
+  "A human team.",
+  "A team you staff yourself.",
   "A name an analyst uses.",
   "A chat window you steer.",
   "Allowed to sign an action.",
   "Allowed to ignore a refusal.",
-  "A presence that remains after the return.",
+  "A staff you employ and then direct.",
 ] as const;
 
 export const faqs: { question: string; answer: string }[] = [
   {
     question: "Is X a human?",
     answer:
-      "No. X is not a person, not a pen name, and not a team writing under one letter. If a human is involved in an action, that human is an operator of Mercenary, and the signature says so.",
+      "No. X is a mercenary team of agents, not a human team. Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil are not people, not pen names, and not analysts sharing a letter. If a human acts, that human is an operator of Mercenary, and the signature says so.",
   },
   {
     question: "Then what is X?",
     answer:
-      "X is not one unnamed model, and it is not a person. X is four agents employed by Mercenary: Pike, Latch, Quill, and Bail. A company that signs up uses those four. It does not employ them, and it does not keep them after the return.",
+      "A mercenary team of agents for the superintelligence era, brought in for one mission. The mission is the full security of an app, data, or a system, and they stay on it. Bearing reads the adversary. Flint hunts. Span, Lode, and Signet take the application, the data, and identity. Brace proposes the hold. Tally writes the record. Vigil keeps the watch. You do not put them on your staff. They do not leave.",
   },
   {
-    question: "Which agents do we get when we sign up?",
+    question: "Who do we bring in?",
     answer:
-      "The same four, every time. Pike hunts. Latch proposes the hold. Quill writes the record. Bail closes the engagement and brings the system back. A company does not rename them, drop one, or add its own. None of them is a person, and none of them signs.",
+      "The same eight, every mission. Intelligence, hunt, application, data, identity, response, record, and the watch. You do not rename them, drop one, or add your own. None of them is a person, and none of them signs. They stay.",
   },
   {
     question: "What does \"superintelligence agent\" mean here?",
@@ -274,24 +302,24 @@ export const faqs: { question: string; answer: string }[] = [
       "No. The refusal is part of the record. X does not take another route around that no. Speed without a signature would be a second attacker, and the doctrine does not allow it.",
   },
   {
-    question: "Do we talk to X, or to the company?",
+    question: "Do we talk to the team, or to the company?",
     answer:
-      "You talk to Mercenary. You bring a brief. The company accepts it. X reads it and does the machine-speed work. What you see, before anything changes, is the action an operator is willing to sign.",
+      "You name the mission. Mercenary brings the team in. What you see, before anything changes, is the action an operator is willing to sign.",
   },
   {
-    question: "Does X stay in our environment?",
+    question: "Does the team stay?",
     answer:
-      "No. The engagement ends. X stops. The company leaves. A standing presence after the return is outside the doctrine.",
+      "Yes. You bring them in for the mission, and the mission is the security of that system. They stay on it. They are not your staff, and they do not take the system from you.",
   },
   {
     question: "Can we license X and run it ourselves?",
     answer:
-      "No. Signing up gives a company the roster for the engagement. It does not give them a copy to run after Bail is finished. What you keep is the system, authority over it, and the record.",
+      "No. You bring the team in for the mission. You do not take them onto your own stack, and you do not employ them as staff. They stay on the mission. What you keep is the system, authority over it, and the record.",
   },
   {
-    question: "What has to be in the brief?",
+    question: "What has to be in the mission?",
     answer:
-      "Who you are, the system at risk, the tempo, and the unknown. Tempo is one of three: hours, days, or already inside. The brief is ready when those are specific enough for X to read.",
+      "Who you are, the system at risk, the tempo, and the unknown. Tempo is one of three: hours, days, or already inside. The mission is ready when those are specific enough for the team to take.",
   },
   {
     question: "Does this website send the brief anywhere?",
@@ -301,7 +329,7 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "What is the difference between Mercenary and X?",
     answer:
-      "Mercenary is the company. It takes the contract, keeps an operator accountable, and returns the system with a record. X is the agent that works for the company. They are not the same actor, and the work depends on keeping them apart.",
+      "Mercenary is the company, and the platform you use to bring the team in for a mission. It keeps an operator accountable and brings the system back with a record. X is the mercenary team of agents. They are not the same actor, and the work depends on keeping them apart.",
   },
   {
     question: "Why is the X ember?",
@@ -313,40 +341,60 @@ export const faqs: { question: string; answer: string }[] = [
 export const glossary: { term: string; text: string; agent?: boolean }[] = [
   {
     term: "Mercenary",
-    text: "The company. It takes the contract, keeps an operator accountable for every action, and returns the system with a record.",
+    text: "The company, and the platform. You use it to bring a mercenary team of agents in for one mission: to secure an app, data, or a system. An operator stays accountable for every action, and the system comes back with a record.",
   },
   {
     term: "X",
-    text: "Not a person. The fixed roster of agents employed by the company: Pike, Latch, Quill, and Bail. They do not sign for themselves.",
+    text: "A mercenary team of agents for the superintelligence era, not people. Eight names, brought in for one mission, and they stay: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. They do not sign for themselves.",
     agent: true,
   },
   {
-    term: "Pike",
-    text: "The hunt. Pike reads the system in the brief and returns a location, the evidence, and a name.",
+    term: "Bearing",
+    text: "Intelligence. Bearing reads the adversary that can think, and brings the direction of the threat.",
     agent: true,
   },
   {
-    term: "Latch",
-    text: "The hold. Latch proposes containment scoped to that system. An operator signs it. Latch does not.",
+    term: "Flint",
+    text: "Hunt. Flint is first into the system and brings back a location, the evidence, and a name.",
     agent: true,
   },
   {
-    term: "Quill",
-    text: "The record. Quill writes what was found and what was done, including a refusal. The record comes back with the system.",
+    term: "Span",
+    text: "Application. Span reads the app and its paths, and what a mind would ask it to do.",
     agent: true,
   },
   {
-    term: "Bail",
-    text: "The return. Bail closes the engagement and checks that the system, the authority, and the record are back with the company.",
+    term: "Lode",
+    text: "Data. Lode marks where data sits, where it moves, and what must not leave.",
+    agent: true,
+  },
+  {
+    term: "Signet",
+    text: "Identity. Signet finds who is allowed, and the permission that does not belong.",
+    agent: true,
+  },
+  {
+    term: "Brace",
+    text: "Response. Brace proposes the hold. An operator signs it. Brace does not.",
+    agent: true,
+  },
+  {
+    term: "Tally",
+    text: "Record. Tally writes what was found and what was done, including a refusal. The record is yours.",
+    agent: true,
+  },
+  {
+    term: "Vigil",
+    text: "Continuity. Vigil returns the system to you and keeps the watch. The team stays.",
     agent: true,
   },
   {
     term: "Engagement",
-    text: "One contract, from introduction to return. It has an end. A standing presence after that end is outside the doctrine.",
+    text: "The work you bring the team in to do. They stay on it. The system, the authority, and the record remain yours.",
   },
   {
     term: "Brief",
-    text: "The named system, the tempo, and the unknown. X reads the brief. The company accepts it.",
+    text: "The mission: the named system, the tempo, and the unknown. The company accepts it. The team takes it.",
   },
   {
     term: "Tempo",
@@ -362,7 +410,7 @@ export const glossary: { term: string; text: string; agent?: boolean }[] = [
   },
   {
     term: "Return",
-    text: "The close of an engagement: system, authority, and record, back in the customer's hands.",
+    text: "The system, the authority, and the record, back in your hands. The team stays on the mission.",
   },
 ];
 

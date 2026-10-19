@@ -10,41 +10,44 @@ export function Name() {
       <PageHeader
         kicker="The name"
         title="Two words. Two roles."
-        lede="Mercenary is the company. X is the superintelligence agent that works for the company. The platform is the contract between them and you."
+        lede="Mercenary is the platform. X is the mercenary team of agents you bring in for one mission."
       />
       <div className="wrap name-page">
         <section>
           <h2>Mercenary</h2>
           <p>
-            The company. It takes the introduction, accepts the brief, and
-            remains answerable for the engagement. An operator of Mercenary
-            signs every action that touches your system.
+            The company, and the platform. You name the mission: the app, the
+            data, or the system. Mercenary brings the team in and remains
+            answerable. An operator of Mercenary signs every action that
+            touches your system.
           </p>
           <p>
-            The company also closes the work. Authority comes back to you. The
-            record comes back with it. Mercenary does not stay in the
-            environment as a tenant.
+            The system stays yours. The record stays yours. The team stays on
+            the mission. They do not take the environment, and they do not
+            walk out of it.
           </p>
         </section>
         <section>
           <h2 className="agent">X</h2>
           <p>
-            Not a human. X is four agents employed by the company: Pike,
-            Latch, Quill, and Bail. They read the system at machine speed:
-            behavior it was never instructed to perform, and the places a new
-            intelligence would hide to keep performing it.
+            Not people. X is a mercenary team of agents for the
+            superintelligence era: Bearing, Flint, Span, Lode, Signet, Brace,
+            Tally, and Vigil. You bring them in for the mission. You do not employ
+            them. They stay, and they read the system at machine speed: behavior it was never instructed
+            to perform, and the places a new intelligence would hide to keep
+            performing it.
           </p>
           <p>
-            X proposes the hold. It does not sign the hold. If an operator
-            refuses the proposal, that refusal is part of the record, and X
-            does not route around it.
+            The team proposes the hold. It does not sign the hold. If an
+            operator refuses the proposal, that refusal is part of the record,
+            and the team does not route around it.
           </p>
         </section>
         <section className="name-meet">
           <h2>Where they meet</h2>
           <p>
-            You bring a brief. The company accepts it. X works it. A person
-            signs what changes. The three of you are not the same actor, and
+            You name the mission. The company brings the team. A person signs
+            what changes. You, Mercenary, and X are not the same actor, and
             the doctrine depends on keeping them apart.
           </p>
           <p>
@@ -57,7 +60,7 @@ export function Name() {
               <span aria-hidden="true">→</span>
             </Link>
             <Link className="text-link" to="/agents">
-              The roster
+              The team
               <span aria-hidden="true">→</span>
             </Link>
             <Link className="text-link" to="/doctrine">

@@ -75,7 +75,7 @@ export function Layout() {
             ))}
           </nav>
           <Link className="btn nav-cta" to="/access">
-            Request access
+            Bring the team
           </Link>
         </div>
         <nav id="site-nav" className="drawer wrap" aria-label="Mobile" hidden={!open}>
@@ -83,7 +83,7 @@ export function Layout() {
             <Item key={link.to} to={link.to} label={link.label} onClick={() => setOpen(false)} />
           ))}
           <Link className="btn drawer-cta" to="/access" onClick={() => setOpen(false)}>
-            Request access
+            Bring the team
           </Link>
         </nav>
       </header>
@@ -96,7 +96,7 @@ export function Layout() {
             <Link className="brand" to="/" aria-label="Mercenary X, home">
               <Lockup />
             </Link>
-            <p>Cybersecurity for the superintelligence era.</p>
+            <p>A mercenary team of agents, brought in for a mission. They stay.</p>
           </div>
           <nav aria-label="Company">
             <p className="kicker">Company</p>
@@ -115,7 +115,7 @@ export function Layout() {
           </nav>
           <div>
             <p className="kicker">Access</p>
-            <Link to="/access">Request access</Link>
+            <Link to="/access">Bring the team</Link>
             <p className="foot-year">© 2026 Mercenary X</p>
           </div>
         </div>

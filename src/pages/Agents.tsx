@@ -9,9 +9,9 @@ export function Agents() {
   return (
     <article className="page">
       <PageHeader
-        kicker="Agents"
-        title="Four names. The same four every time."
-        lede="When a company signs up with Mercenary, it uses X. X is these agents. The roster is fixed. None of them is a person, and none of them signs."
+        kicker="Mercenary team"
+        title="A mercenary team of agents."
+        lede="X is that team, built for the full security of a system. You bring them in for one mission: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. None of them is a person, and none of them signs."
       />
       <div className="wrap">
         <div className="doctrine roster">
@@ -23,7 +23,7 @@ export function Agents() {
                 <p className="kicker">{agent.role}</p>
                 <p>{agent.text}</p>
                 <p className="receive">
-                  <span>You receive</span>
+                  <span>Brings back</span>
                   {agent.receive}
                 </p>
               </div>
@@ -31,18 +31,21 @@ export function Agents() {
           ))}
         </div>
         <div className="prose">
-          <h2>What signup gives you</h2>
+          <h2>How a mission starts</h2>
           <p>
-            Pike, Latch, Quill, and Bail. Not a menu, and not a team you staff.
-            Mercenary employs them. Your company uses them for the engagement
-            named in the brief. You do not rename them, and you do not bring a
-            fifth.
+            Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. Not a
+            menu of tools, and not a team you interview and staff. You bring
+            these eight in for one mission. They cover the adversary, the
+            hunt, the app, the data, identity, the hold, the record, and the
+            watch. You do not rename them, drop one, or add your own.
           </p>
           <p>
-            You still talk to the company. An operator of Mercenary signs every
-            action that touches the system. If the operator refuses Latch, Quill
-            writes the refusal, and Latch does not route around it. When Bail is
-            finished, the four stop.
+            They are agentic. They move at the tempo of a mind that does not
+            sleep. They are not people in your meetings. An operator of
+            Mercenary still signs every action. If the operator refuses Brace,
+            Tally writes the refusal into the record, and the team does not
+            route around it. Vigil keeps the watch. The eight stay on the
+            mission. They do not leave.
           </p>
           <p className="page-next">
             <Link className="text-link" to="/x">
@@ -52,7 +55,7 @@ export function Agents() {
           </p>
           <p className="page-next">
             <Link className="text-link" to="/access">
-              Request access
+              Bring the team
               <span aria-hidden="true">→</span>
             </Link>
           </p>

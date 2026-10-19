@@ -37,10 +37,10 @@ export function Era() {
           action. Speed without a signature is just a second attacker.
         </p>
         <p>
-          That is the split inside Mercenary X. X is the agent, employed by the
-          company, reading and proposing at the tempo of the threat. Mercenary
-          is the company that accepts the brief and signs. The platform is how
-          those two roles meet a system you still own.
+          That is the split inside Mercenary X. X is the mercenary team of agents
+          you bring in for the mission, reading and proposing at the tempo of
+          the threat. Mercenary is the platform, and the company that signs.
+          You use it to send them to an app, the data, or a system you still own.
         </p>
         <p>
           The era does not ask you to become a research lab. It asks you to

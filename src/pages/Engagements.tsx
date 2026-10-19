@@ -9,9 +9,9 @@ export function Engagements() {
   return (
     <article className="page">
       <PageHeader
-        kicker="Engagements"
-        title="One contract. A visible end."
-        lede="You name the system and the tempo. X does the machine-speed work. The company signs what changes, and then leaves."
+        kicker="The mission"
+        title="One mission. They stay."
+        lede="You bring in a mercenary team of agents for one mission. They secure the system you named, and they do not leave."
       />
       <div className="wrap">
         <div className="doctrine">
@@ -25,7 +25,7 @@ export function Engagements() {
         </div>
         <section className="limits">
           <p className="kicker">Outside the contract</p>
-          <h2>What this engagement is not.</h2>
+          <h2>What this mission is not.</h2>
           <ul>
             {limits.map((limit) => (
               <li key={limit}>{limit}</li>
@@ -34,7 +34,7 @@ export function Engagements() {
         </section>
         <p className="page-next">
           <Link className="text-link" to="/access">
-            Send a brief
+            Bring the team
             <span aria-hidden="true">→</span>
           </Link>
         </p>

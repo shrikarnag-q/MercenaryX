@@ -10,8 +10,8 @@ export function Doctrine() {
     <article className="page">
       <PageHeader
         kicker="Doctrine"
-        title="A mercenary does not occupy."
-        lede="Hunt, hold, return. Then the contract is over. Each movement ends in something you can hold."
+        title="A mercenary stays on the mission."
+        lede="Hunt, hold, return. The team stays. Each movement ends in something you can hold, and they remain on the work."
       />
       <div className="wrap">
         <div className="doctrine">
@@ -31,7 +31,7 @@ export function Doctrine() {
         </div>
         <p className="page-next">
           <Link className="text-link" to="/engagements">
-            How an engagement runs
+            How a mission runs
             <span aria-hidden="true">→</span>
           </Link>
         </p>
