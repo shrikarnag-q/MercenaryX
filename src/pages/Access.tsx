@@ -23,7 +23,7 @@ const emptyBrief: Brief = {
 };
 
 export function Access() {
-  useTitle("Bring the team");
+  useTitle("Join the waitlist");
   const [brief, setBrief] = useState<Brief>(emptyBrief);
   const [received, setReceived] = useState<Brief | null>(null);
   const confirmationRef = useRef<HTMLDivElement>(null);
@@ -47,19 +47,22 @@ export function Access() {
         <div>
           <PageHeader
             nested
-            kicker="The brief"
+            kicker="The waitlist"
             title="Name the mission."
-            lede="Name the app, the data, or the system, where the team is brought in, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the brief in the browser only."
+            lede="The team is being brought in for a small number of missions first. Name the app, the data, or the system, where the team would run, and how fast the trouble is moving. This preview keeps the brief in the browser only."
           />
         </div>
         {received ? (
           <div className="confirmation" role="status" tabIndex={-1} ref={confirmationRef}>
-            <p className="kicker">Brief received</p>
+            <p className="kicker">Brief written</p>
             <p className="confirm-title">
               {received.name}, the brief on {received.system} for {received.organization} stays in
               this session. Deployment: {received.deployment}. Tempo: {received.tempo}.
             </p>
-            <p>Nothing was transmitted. Leave the page and it is gone.</p>
+            <p>
+              Nothing was transmitted and no place on the list was taken. Leave the page and it is
+              gone.
+            </p>
             <button
               type="button"
               className="text-link"
@@ -164,7 +167,7 @@ export function Access() {
               />
             </div>
             <button className="btn" type="submit">
-              Bring the team
+              Join the waitlist
             </button>
           </form>
         )}

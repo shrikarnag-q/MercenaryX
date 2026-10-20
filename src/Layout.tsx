@@ -76,7 +76,7 @@ export function Layout() {
             ))}
           </nav>
           <Link className="btn nav-cta" to="/access">
-            Bring the team
+            Join the waitlist
           </Link>
         </div>
         <nav id="site-nav" className="drawer wrap" aria-label="Mobile" hidden={!open}>
@@ -84,7 +84,7 @@ export function Layout() {
             <Item key={link.to} to={link.to} label={link.label} onClick={() => setOpen(false)} />
           ))}
           <Link className="btn drawer-cta" to="/access" onClick={() => setOpen(false)}>
-            Bring the team
+            Join the waitlist
           </Link>
         </nav>
       </header>
@@ -117,7 +117,7 @@ export function Layout() {
           </nav>
           <div>
             <p className="kicker">Access</p>
-            <Link to="/access">Bring the team</Link>
+            <Link to="/access">Join the waitlist</Link>
             <p className="foot-year">© 2026 Mercenary X</p>
           </div>
         </div>

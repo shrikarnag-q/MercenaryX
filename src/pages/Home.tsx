@@ -77,7 +77,7 @@ export function Home() {
           </p>
           <div className="hero-actions">
             <Link className="btn" to="/access">
-              Bring the team
+              Join the waitlist
             </Link>
             <Link className="text-link" to="/agents">
               Meet the team

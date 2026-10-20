@@ -41,7 +41,7 @@ export function Deployments() {
         </p>
         <p className="page-next">
           <Link className="text-link" to="/access">
-            Bring the team
+            Join the waitlist
             <span aria-hidden="true">→</span>
           </Link>
         </p>
