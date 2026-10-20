@@ -88,9 +88,9 @@ export function Home() {
         <figure className="hero-figure">
           <img
             src="/hero-sketch.png"
-            alt="White pencil sketch of a mounted condottiere carrying a lance, an ember X on the pennant."
-            width={719}
-            height={838}
+            alt="White pencil sketch of a mounted condottiere carrying a lance. Toward the back, the pencil strokes resolve into a fine wireframe lattice. An ember X on the pennant."
+            width={722}
+            height={827}
           />
         </figure>
       </section>
