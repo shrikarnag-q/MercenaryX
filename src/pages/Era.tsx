@@ -38,7 +38,7 @@ export function Era() {
         </p>
         <p>
           That is the split inside Mercenary X. X is the mercenary team of agents
-          you bring in for the mission, reading and proposing at the tempo of
+          you bring in, reading and proposing at the tempo of
           the threat. Mercenary is the platform, and the company that signs.
           You use it to send them to an app, the data, or a system you still own.
         </p>

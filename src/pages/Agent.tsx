@@ -11,7 +11,7 @@ export function Agent() {
       <PageHeader
         kicker="The team"
         title="X is not a person."
-        lede="X is a mercenary team of agents for the superintelligence era, not a person and not a human crew. You bring in Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil for one mission. None of them signs."
+        lede="X is a mercenary team of agents for the superintelligence era, not a person and not a human crew. You bring them in to secure an app, the data, or a system, and they stay on it. None of them signs."
       />
       <div className="wrap">
         <div className="agent-facts">
@@ -70,9 +70,9 @@ export function Agent() {
             mercenaries you brought in, and they stay.
           </p>
           <p>
-            Ember marks the agent: the letter in the wordmark, and the diamond
-            in the seal. Mercenary stays bone. The coin around the diamond is
-            the company, and the edge of the contract.
+            Ember is the team: the strokes that complete the X in the mark,
+            and the letter in the wordmark. The M is Mercenary, and it stays
+            bone.
           </p>
           <p className="page-next">
             <Link className="text-link" to="/agents">

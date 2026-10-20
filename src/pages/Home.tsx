@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { resources } from "../content.ts";
-import { Mark } from "../Mark.tsx";
 import { useTitle } from "../useTitle.ts";
 
 const doors = [
@@ -8,13 +7,13 @@ const doors = [
     to: "/name",
     number: "01",
     title: "The name",
-    text: "Mercenary is the platform. You bring X in for one mission.",
+    text: "Mercenary is the platform and the company. X is the team it fields.",
   },
   {
     to: "/x",
     number: "02",
     title: "X",
-    text: "A mercenary team of agents. Not people. Brought in for one mission.",
+    text: "A mercenary team of agents. Not people. Brought in to secure what you own.",
   },
   {
     to: "/agents",
@@ -32,17 +31,23 @@ const doors = [
     to: "/engagements",
     number: "05",
     title: "Engagements",
-    text: "One mission. The team stays on it.",
+    text: "How the team is brought in, and why it does not leave.",
+  },
+  {
+    to: "/deployments",
+    number: "06",
+    title: "Deployments",
+    text: "Cloud or VPC, or a sovereign appliance. The same team either way.",
   },
   {
     to: "/resources",
-    number: "06",
+    number: "07",
     title: "Resources",
     text: "Essays, field notes, a brief on tempo, and the glossary.",
   },
   {
     to: "/questions",
-    number: "07",
+    number: "08",
     title: "Questions",
     text: "Plain answers, starting with what X is and what it is not.",
   },
@@ -59,16 +64,16 @@ export function Home() {
             <i aria-hidden="true" />
             Taking missions
           </p>
-          <h1>
-            A mercenary
+          <h1 className="hero-title">
+            Mercenaries for the
             <br />
-            team of <em>agents</em>.
+            <em>superintelligence</em> era.
           </h1>
           <p className="deck">
-            Mercenary is the platform. You bring in X, a mercenary team of
-            agents, for one mission in the superintelligence era. Bearing,
-            Flint, Span, Lode, Signet, Brace, Tally, and Vigil secure the
-            app, the data, and the system. They stay.
+            X is a team of eight agents you bring in to hunt, hold, and keep
+            watch over your apps, data, and systems against adversaries that
+            can think. They run in your cloud or on your own appliance. A
+            person at Mercenary signs every action. They do not leave.
           </p>
           <div className="hero-actions">
             <Link className="btn" to="/access">
@@ -80,9 +85,14 @@ export function Home() {
             </Link>
           </div>
         </div>
-        <div className="seal">
-          <Mark className="seal-mark" />
-        </div>
+        <figure className="hero-figure">
+          <img
+            src="/hero-sketch.png"
+            alt="White pencil sketch of a mounted condottiere carrying a lance, an ember X on the pennant."
+            width={719}
+            height={838}
+          />
+        </figure>
       </section>
 
       <section className="section directory-section">

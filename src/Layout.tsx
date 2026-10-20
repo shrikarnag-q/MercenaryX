@@ -7,6 +7,7 @@ const links = [
   { to: "/agents", label: "Agents" },
   { to: "/doctrine", label: "Doctrine" },
   { to: "/engagements", label: "Engagements" },
+  { to: "/deployments", label: "Deployments" },
   { to: "/resources", label: "Resources" },
   { to: "/questions", label: "Questions" },
 ];
@@ -96,7 +97,7 @@ export function Layout() {
             <Link className="brand" to="/" aria-label="Mercenary X, home">
               <Lockup />
             </Link>
-            <p>A mercenary team of agents, brought in for a mission. They stay.</p>
+            <p>A mercenary team of agents, brought in to secure what you own. They stay.</p>
           </div>
           <nav aria-label="Company">
             <p className="kicker">Company</p>
@@ -105,6 +106,7 @@ export function Layout() {
             <Link to="/agents">Agents</Link>
             <Link to="/doctrine">Doctrine</Link>
             <Link to="/engagements">Engagements</Link>
+            <Link to="/deployments">Deployments</Link>
           </nav>
           <nav aria-label="Reading">
             <p className="kicker">Reading</p>

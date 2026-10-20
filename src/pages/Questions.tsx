@@ -11,7 +11,7 @@ export function Questions() {
       <PageHeader
         kicker="Questions"
         title="Asked plainly."
-        lede="Starting with the one that matters. X is not a human team. It is a mercenary team of agents, brought in for a mission."
+        lede="Starting with the one that matters. X is not a human team. It is a mercenary team of agents, brought in to secure what you own."
       />
       <div className="wrap">
         <div className="faq">

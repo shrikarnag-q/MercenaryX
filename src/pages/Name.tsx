@@ -10,7 +10,7 @@ export function Name() {
       <PageHeader
         kicker="The name"
         title="Two words. Two roles."
-        lede="Mercenary is the platform. X is the mercenary team of agents you bring in for one mission."
+        lede="Mercenary is the platform and the company. X is the mercenary team of agents it fields to secure what you own."
       />
       <div className="wrap name-page">
         <section>
@@ -32,10 +32,10 @@ export function Name() {
           <p>
             Not people. X is a mercenary team of agents for the
             superintelligence era: Bearing, Flint, Span, Lode, Signet, Brace,
-            Tally, and Vigil. You bring them in for the mission. You do not employ
-            them. They stay, and they read the system at machine speed: behavior it was never instructed
-            to perform, and the places a new intelligence would hide to keep
-            performing it.
+            Tally, and Vigil. You bring them in. You do not employ them. They
+            stay, and they read the system at machine speed: behavior it was
+            never instructed to perform, and the places a new intelligence
+            would hide to keep performing it.
           </p>
           <p>
             The team proposes the hold. It does not sign the hold. If an
@@ -51,8 +51,9 @@ export function Name() {
             the doctrine depends on keeping them apart.
           </p>
           <p>
-            The ember in the seal is X: the unknown, once it has been marked.
-            The coin around it is the company, and the limit of the contract.
+            The mark is an M that becomes an X. The bone M is Mercenary. The
+            ember strokes that carry its lines through and complete the X are
+            the team.
           </p>
           <p className="name-links">
             <Link className="text-link" to="/x">

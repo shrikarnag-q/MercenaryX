@@ -3,6 +3,7 @@ import { Layout } from "./Layout.tsx";
 import { Access } from "./pages/Access.tsx";
 import { Agents } from "./pages/Agents.tsx";
 import { Agent } from "./pages/Agent.tsx";
+import { Deployments } from "./pages/Deployments.tsx";
 import { Doctrine } from "./pages/Doctrine.tsx";
 import { Engagements } from "./pages/Engagements.tsx";
 import { Era } from "./pages/Era.tsx";
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="agents" element={<Agents />} />
         <Route path="doctrine" element={<Doctrine />} />
         <Route path="engagements" element={<Engagements />} />
+        <Route path="deployments" element={<Deployments />} />
         <Route path="era" element={<Era />} />
         <Route path="resources" element={<Resources />} />
         <Route path="resources/:slug" element={<ResourceArticle />} />

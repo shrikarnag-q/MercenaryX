@@ -7,6 +7,7 @@ type Brief = {
   organization: string;
   email: string;
   system: string;
+  deployment: string;
   tempo: string;
   brief: string;
 };
@@ -16,6 +17,7 @@ const emptyBrief: Brief = {
   organization: "",
   email: "",
   system: "",
+  deployment: "",
   tempo: "",
   brief: "",
 };
@@ -47,7 +49,7 @@ export function Access() {
             nested
             kicker="The mission"
             title="Name the mission."
-            lede="Name the app, the data, or the system, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the request in the browser only."
+            lede="Name the app, the data, or the system, where the team is brought in, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the request in the browser only."
           />
         </div>
         {received ? (
@@ -55,7 +57,7 @@ export function Access() {
             <p className="kicker">Mission received</p>
             <p className="confirm-title">
               {received.name}, the mission on {received.system} for {received.organization} stays in
-              this session.
+              this session. Brought in as {received.deployment}.
             </p>
             <p>Nothing was transmitted. Leave the page and it is gone.</p>
             <button
@@ -134,6 +136,20 @@ export function Access() {
                   <option>Already inside</option>
                 </select>
               </div>
+            </div>
+            <div className="field">
+              <label htmlFor="deployment">Deployment</label>
+              <select
+                id="deployment"
+                name="deployment"
+                required
+                value={brief.deployment}
+                onChange={(event) => update("deployment", event.target.value)}
+              >
+                <option value="">Select</option>
+                <option>Cloud / VPC</option>
+                <option>Sovereign appliance</option>
+              </select>
             </div>
             <div className="field">
               <label htmlFor="facing">What you are facing</label>

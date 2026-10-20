@@ -23,12 +23,12 @@ export const stages = [
   {
     number: "01",
     title: "The call",
-    text: "You bring Mercenary in for one mission, not a set of vendors you manage. The company sends the team: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. A live channel is not open yet. This site keeps the request in the browser only.",
+    text: "You bring Mercenary in, not a set of vendors you manage. The company sends the team: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. A live channel is not open yet. This site keeps the request in the browser only.",
   },
   {
     number: "02",
     title: "The mission",
-    text: "You name the system, the tempo, and the unknown. Hours, days, or already inside. That is the mission. The team does not start until those three are specific enough to take.",
+    text: "You name the system, where the team is brought in, the tempo, and the unknown. Cloud or VPC, or a sovereign appliance. Hours, days, or already inside. That is the mission. The team does not start until those are specific enough to take.",
   },
   {
     number: "03",
@@ -39,6 +39,19 @@ export const stages = [
     number: "04",
     title: "They stay",
     text: "Vigil keeps the team on the mission. The system, the authority, and the record are yours. They stay: the security of the app, the data, or the system you named.",
+  },
+] as const;
+
+export const deployments = [
+  {
+    number: "01",
+    title: "Cloud / VPC",
+    text: "The team is brought into the cloud account or VPC you already run. The app, the data, and the system stay inside that boundary. Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil work there. You keep the system. They stay on the mission.",
+  },
+  {
+    number: "02",
+    title: "Sovereign appliance",
+    text: "The team runs on an appliance you place with the system. The mission does not depend on a cloud outside your control. Use this when the app, the data, or the authority has to remain on ground you hold. Mercenary still fields the eight. The appliance is the ground, not a license to run them yourself.",
   },
 ] as const;
 
@@ -254,7 +267,7 @@ export const roster = [
 ] as const;
 
 export const agentIs = [
-  "A mercenary team of agents, brought in for one mission.",
+  "A mercenary team of agents, brought in to secure what you own.",
   "Eight names. The full security of a system.",
   "Fast enough to work while an adversary is rewriting the path.",
   "Still on the mission after the system and the record are yours.",
@@ -279,12 +292,12 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "Then what is X?",
     answer:
-      "A mercenary team of agents for the superintelligence era, brought in for one mission. The mission is the full security of an app, data, or a system, and they stay on it. Bearing reads the adversary. Flint hunts. Span, Lode, and Signet take the application, the data, and identity. Brace proposes the hold. Tally writes the record. Vigil keeps the watch. You do not put them on your staff. They do not leave.",
+      "A mercenary team of agents for the superintelligence era, brought in to secure an app, data, or a system, and to stay on it. Bearing reads the adversary. Flint hunts. Span, Lode, and Signet take the application, the data, and identity. Brace proposes the hold. Tally writes the record. Vigil keeps the watch. You do not put them on your staff. They do not leave.",
   },
   {
     question: "Who do we bring in?",
     answer:
-      "The same eight, every mission. Intelligence, hunt, application, data, identity, response, record, and the watch. You do not rename them, drop one, or add your own. None of them is a person, and none of them signs. They stay.",
+      "The same eight, every time. Intelligence, hunt, application, data, identity, response, record, and the watch. You do not rename them, drop one, or add your own. None of them is a person, and none of them signs. They stay.",
   },
   {
     question: "What does \"superintelligence agent\" mean here?",
@@ -309,17 +322,22 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "Does the team stay?",
     answer:
-      "Yes. You bring them in for the mission, and the mission is the security of that system. They stay on it. They are not your staff, and they do not take the system from you.",
+      "Yes. The mission is the security of that system, and that does not end. They stay on it. They are not your staff, and they do not take the system from you.",
   },
   {
     question: "Can we license X and run it ourselves?",
     answer:
-      "No. You bring the team in for the mission. You do not take them onto your own stack, and you do not employ them as staff. They stay on the mission. What you keep is the system, authority over it, and the record.",
+      "No. You bring the team in. A sovereign appliance is still Mercenary's team, on ground you hold. You do not license them onto your own stack, and you do not employ them as staff. They stay on the mission. What you keep is the system, authority over it, and the record.",
+  },
+  {
+    question: "Where does the team run?",
+    answer:
+      "In one of two places. Cloud / VPC: inside the cloud account or VPC you already run. Sovereign appliance: on an appliance you place with the system, when the mission cannot depend on a cloud outside your control. The eight are the same either way. An operator still signs. They stay.",
   },
   {
     question: "What has to be in the mission?",
     answer:
-      "Who you are, the system at risk, the tempo, and the unknown. Tempo is one of three: hours, days, or already inside. The mission is ready when those are specific enough for the team to take.",
+      "Who you are, the system at risk, where the team is brought in, the tempo, and the unknown. The team runs in your cloud or VPC, or on a sovereign appliance. Tempo is one of three: hours, days, or already inside. The mission is ready when those are specific enough for the team to take.",
   },
   {
     question: "Does this website send the brief anywhere?",
@@ -329,23 +347,23 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "What is the difference between Mercenary and X?",
     answer:
-      "Mercenary is the company, and the platform you use to bring the team in for a mission. It keeps an operator accountable and brings the system back with a record. X is the mercenary team of agents. They are not the same actor, and the work depends on keeping them apart.",
+      "Mercenary is the company, and the platform you use to bring the team in. It keeps an operator accountable and brings the system back with a record. X is the mercenary team of agents. They are not the same actor, and the work depends on keeping them apart.",
   },
   {
     question: "Why is the X ember?",
     answer:
-      "Ember marks the agent: the letter in the wordmark and the diamond in the seal. Mercenary stays bone. The coin around the diamond is the company, and the edge of the contract.",
+      "Ember is the team: the strokes that complete the X in the mark, and the letter in the wordmark. The M is Mercenary, and it stays bone.",
   },
 ];
 
 export const glossary: { term: string; text: string; agent?: boolean }[] = [
   {
     term: "Mercenary",
-    text: "The company, and the platform. You use it to bring a mercenary team of agents in for one mission: to secure an app, data, or a system. An operator stays accountable for every action, and the system comes back with a record.",
+    text: "The company, and the platform. You use it to bring a mercenary team of agents in to secure an app, data, or a system. An operator stays accountable for every action, and the system comes back with a record.",
   },
   {
     term: "X",
-    text: "A mercenary team of agents for the superintelligence era, not people. Eight names, brought in for one mission, and they stay: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. They do not sign for themselves.",
+    text: "A mercenary team of agents for the superintelligence era, not people. Eight names, brought in to secure a system, and they stay: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. They do not sign for themselves.",
     agent: true,
   },
   {
@@ -394,7 +412,19 @@ export const glossary: { term: string; text: string; agent?: boolean }[] = [
   },
   {
     term: "Brief",
-    text: "The mission: the named system, the tempo, and the unknown. The company accepts it. The team takes it.",
+    text: "The mission: the named system, where the team is brought in, the tempo, and the unknown. The company accepts it. The team takes it.",
+  },
+  {
+    term: "Deployment",
+    text: "Where the team is brought in. Cloud / VPC, or a sovereign appliance. The eight agents do not change with the choice.",
+  },
+  {
+    term: "Cloud / VPC",
+    text: "The team works inside the cloud account or VPC you already run. The system stays in that boundary.",
+  },
+  {
+    term: "Sovereign appliance",
+    text: "The team runs on an appliance you place with the system. The mission does not depend on a cloud outside your control.",
   },
   {
     term: "Tempo",

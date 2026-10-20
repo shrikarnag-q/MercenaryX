@@ -10,8 +10,8 @@ export function Engagements() {
     <article className="page">
       <PageHeader
         kicker="The mission"
-        title="One mission. They stay."
-        lede="You bring in a mercenary team of agents for one mission. They secure the system you named, and they do not leave."
+        title="The mission does not end."
+        lede="You bring in a mercenary team of agents. They secure the system you named, and they do not leave."
       />
       <div className="wrap">
         <div className="doctrine">
@@ -32,6 +32,12 @@ export function Engagements() {
             ))}
           </ul>
         </section>
+        <p className="page-next">
+          <Link className="text-link" to="/deployments">
+            Where they run
+            <span aria-hidden="true">→</span>
+          </Link>
+        </p>
         <p className="page-next">
           <Link className="text-link" to="/access">
             Bring the team

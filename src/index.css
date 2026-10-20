@@ -337,14 +337,20 @@ h1 em {
   transform: translateX(4px);
 }
 
-.seal {
+.hero-figure {
+  margin: 0;
   justify-self: start;
 }
 
-.seal-mark {
-  width: min(64vw, 220px);
-  height: auto;
+.hero-figure img {
   display: block;
+  width: min(100%, 420px);
+  height: auto;
+}
+
+.hero-title {
+  font-size: clamp(2.9rem, 5.6vw, 5rem);
+  letter-spacing: -0.025em;
 }
 
 .skip {
@@ -657,12 +663,12 @@ blockquote {
     padding: 80px 0 96px;
   }
 
-  .seal {
+  .hero-figure {
     justify-self: end;
   }
 
-  .seal-mark {
-    width: min(100%, 380px);
+  .hero-figure img {
+    width: min(100%, 420px);
   }
 
   .doctrine article {
@@ -795,6 +801,10 @@ blockquote {
 .library-more,
 .page-next {
   margin-top: 28px;
+}
+
+.page-next + .page-next {
+  margin-top: 12px;
 }
 
 .name-page {
@@ -1061,6 +1071,19 @@ blockquote {
 }
 
 @media (min-width: 880px) {
+  .placement article {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .placement .num {
+    grid-row: 1 / span 2;
+  }
+
+  .placement h2,
+  .placement p {
+    grid-column: 2;
+  }
+
   .agent-facts {
     grid-template-columns: 1fr 1fr;
     gap: 64px;

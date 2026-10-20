@@ -11,7 +11,7 @@ export function Agents() {
       <PageHeader
         kicker="Mercenary team"
         title="A mercenary team of agents."
-        lede="X is that team, built for the full security of a system. You bring them in for one mission: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. None of them is a person, and none of them signs."
+        lede="X is that team, built for the full security of a system. Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. None of them is a person, and none of them signs."
       />
       <div className="wrap">
         <div className="doctrine roster">
@@ -35,9 +35,9 @@ export function Agents() {
           <p>
             Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. Not a
             menu of tools, and not a team you interview and staff. You bring
-            these eight in for one mission. They cover the adversary, the
-            hunt, the app, the data, identity, the hold, the record, and the
-            watch. You do not rename them, drop one, or add your own.
+            these eight in, and they stay. They cover the adversary, the hunt,
+            the app, the data, identity, the hold, the record, and the watch.
+            You do not rename them, drop one, or add your own.
           </p>
           <p>
             They are agentic. They move at the tempo of a mind that does not
