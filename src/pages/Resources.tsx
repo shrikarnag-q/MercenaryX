@@ -31,8 +31,8 @@ export function Resources() {
           <p className="kicker">Reference</p>
           <h2>Glossary</h2>
           <p>
-            Mercenary, X, engagement, brief, tempo, operator, signature,
-            return.
+            Mercenary, X, the eight, mission, brief, deployment, tempo,
+            operator, signature, watch.
           </p>
           <Link className="text-link" to="/glossary">
             Open the glossary

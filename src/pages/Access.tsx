@@ -47,17 +47,17 @@ export function Access() {
         <div>
           <PageHeader
             nested
-            kicker="The mission"
+            kicker="The brief"
             title="Name the mission."
-            lede="Name the app, the data, or the system, where the team is brought in, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the request in the browser only."
+            lede="Name the app, the data, or the system, where the team is brought in, and how fast the trouble is moving. Mercenary brings the team in for that mission. This preview keeps the brief in the browser only."
           />
         </div>
         {received ? (
           <div className="confirmation" role="status" tabIndex={-1} ref={confirmationRef}>
-            <p className="kicker">Mission received</p>
+            <p className="kicker">Brief received</p>
             <p className="confirm-title">
-              {received.name}, the mission on {received.system} for {received.organization} stays in
-              this session. Brought in as {received.deployment}.
+              {received.name}, the brief on {received.system} for {received.organization} stays in
+              this session. Deployment: {received.deployment}. Tempo: {received.tempo}.
             </p>
             <p>Nothing was transmitted. Leave the page and it is gone.</p>
             <button

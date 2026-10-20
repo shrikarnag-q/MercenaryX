@@ -36,10 +36,10 @@ export function Agent() {
           <h2>What the team is</h2>
           <p>
             X is not a colleague with a letter for a name, and it is not a
-            crew of people sharing a desk. It is a mercenary team of agents that can learn. On a
-            mission it reads the system you named: behavior that system was
-            never instructed to perform, and the places a new intelligence
-            would use to keep performing it.
+            crew of people sharing a desk. It is a mercenary team of agents
+            that can learn. On a mission it reads the system you named:
+            behavior that system was never instructed to perform, and the
+            places a new intelligence would use to keep performing it.
           </p>
           <p>
             The team works at the tempo of a mind that does not sleep and does
@@ -50,10 +50,10 @@ export function Agent() {
           <h2>What the mission is</h2>
           <p>
             You name the mission: the app, the data, or the system. Mercenary
-            brings the eight in for it. You do not brief the
-            team yourself. An operator, a person at Mercenary, signs every
-            action that touches your system. You see the move before it becomes
-            a change you did not choose.
+            brings the eight in for it. You brief Mercenary, not the agents.
+            An operator, a person at Mercenary, signs every action that
+            touches your system. You see the move before it becomes a change
+            you did not choose.
           </p>
           <h2>The limit</h2>
           <p>

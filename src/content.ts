@@ -13,9 +13,9 @@ export const movements = [
   },
   {
     number: "03",
-    title: "Return",
-    text: "Tally writes the record. Vigil keeps the watch. The system, the authority, and the record are yours. The team stays on the mission. They do not leave.",
-    receive: "The system, the authority, and the record.",
+    title: "Watch",
+    text: "Tally writes the record. Vigil keeps the watch. The system and the authority over it were yours throughout; the record is yours too. The team stays. A mind that can think does not try once.",
+    receive: "The record, and a team that is still there.",
   },
 ] as const;
 
@@ -23,12 +23,12 @@ export const stages = [
   {
     number: "01",
     title: "The call",
-    text: "You bring Mercenary in, not a set of vendors you manage. The company sends the team: Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil. A live channel is not open yet. This site keeps the request in the browser only.",
+    text: "You bring Mercenary in, not a set of vendors you manage. The company sends the team. On this site the request stays in your browser; a live channel is not open yet.",
   },
   {
     number: "02",
-    title: "The mission",
-    text: "You name the system, where the team is brought in, the tempo, and the unknown. Cloud or VPC, or a sovereign appliance. Hours, days, or already inside. That is the mission. The team does not start until those are specific enough to take.",
+    title: "The brief",
+    text: "You name the system, where the team is brought in, the tempo, and the unknown. Cloud or VPC, or a sovereign appliance. Hours, days, or already inside. The team does not start until those are specific enough to take.",
   },
   {
     number: "03",
@@ -38,7 +38,7 @@ export const stages = [
   {
     number: "04",
     title: "They stay",
-    text: "Vigil keeps the team on the mission. The system, the authority, and the record are yours. They stay: the security of the app, the data, or the system you named.",
+    text: "Vigil keeps the watch. The system, the authority, and the record are yours. The team stays, because the mission is the security of what you named, and that does not end.",
   },
 ] as const;
 
@@ -46,7 +46,7 @@ export const deployments = [
   {
     number: "01",
     title: "Cloud / VPC",
-    text: "The team is brought into the cloud account or VPC you already run. The app, the data, and the system stay inside that boundary. Bearing, Flint, Span, Lode, Signet, Brace, Tally, and Vigil work there. You keep the system. They stay on the mission.",
+    text: "The team is brought into the cloud account or VPC you already run. The app, the data, and the system stay inside that boundary, and the eight work there. You keep the system. They stay on the mission.",
   },
   {
     number: "02",
@@ -58,7 +58,7 @@ export const deployments = [
 export const limits = [
   "The team does not sign an action. A person at the company does.",
   "The team does not take the system. You keep it, and they stay on the mission.",
-  "The record comes back with the system. It is not a product we keep.",
+  "The record is yours. Mercenary does not keep a copy.",
   "They are not a staff you employ. They are the mercenaries on the mission.",
 ] as const;
 
@@ -119,7 +119,7 @@ export const resources: Resource[] = [
     blocks: [
       {
         kind: "p",
-        text: "X is the superintelligence agent that works for the company. It hunts. It proposes a hold. It can do both faster than a room of people can convene.",
+        text: "X is the team of agents Mercenary fields. It hunts. It proposes a hold. It can do both faster than a room of people can convene.",
       },
       {
         kind: "p",
@@ -140,27 +140,27 @@ export const resources: Resource[] = [
     ],
   },
   {
-    slug: "what-comes-back",
+    slug: "what-you-keep",
     kind: "Field note",
-    title: "What comes back",
-    dek: "The system and the record are yours. The team stays on the mission.",
+    title: "What you keep",
+    dek: "The system, the authority, and the record were yours throughout. After the hold, the team stays too.",
     date: "14 October 2026",
     blocks: [
       {
         kind: "p",
-        text: "Return is the third movement. The system, the authority, and the record come back to you. The team does not come back with them. They stay on the mission.",
+        text: "Watch is the third movement. Nothing comes back to you, because nothing left. The system stayed yours through the hunt and the hold. What changes is what you now know about it, and who is standing on it.",
       },
       {
         kind: "h",
-        text: "Three things",
+        text: "Three things you hold",
       },
       {
         kind: "p",
-        text: "The system, as it stands after the hold. Authority over it, which stays with you. A record of what was found and what was done, including the proposals X made and the ones an operator declined.",
+        text: "The system, in a state you can run. Authority over it, which never moved. A record of what was found and what was done, including the proposals X made and the ones an operator declined.",
       },
       {
         kind: "p",
-        text: "We do not keep a copy of the record as a library of your environment. The team stays because the mission is the security of that system. The next move does not wait for a new introduction.",
+        text: "Mercenary does not keep a copy of the record as a library of your environment. The team stays because the mission is the security of that system, and a mind that can think does not try once.",
       },
     ],
   },
@@ -261,16 +261,16 @@ export const roster = [
     number: "08",
     name: "Vigil",
     role: "Continuity",
-    text: "Returns the system to you in a state you can run, and keeps the watch. The team stays on the mission. They do not leave.",
+    text: "Keeps the system in a state you can run, and keeps the watch after the hold. Vigil is why the team stays. A mind that can think does not try once.",
     receive: "A system you still own, with the team still on it.",
   },
 ] as const;
 
 export const agentIs = [
   "A mercenary team of agents, brought in to secure what you own.",
-  "Eight names. The full security of a system.",
+  "Eight agents, one for each part of a system's security.",
   "Fast enough to work while an adversary is rewriting the path.",
-  "Still on the mission after the system and the record are yours.",
+  "Still on the system after the hold. They do not leave.",
 ] as const;
 
 export const agentIsNot = [
@@ -302,7 +302,7 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "What does \"superintelligence agent\" mean here?",
     answer:
-      "An agent that can learn and rewrite its method at a tempo a human process cannot match. It does not need the pause your playbook was written around. That is why the hunt is continuous, and why a hold has to be signed before the path changes again.",
+      "An agent that learns and rewrites its method at a tempo no human process can match. The adversary in this era is one, and it does not need the pause your playbook was written around. X is built to meet it: the hunt is continuous, and a hold is signed before the path can change again.",
   },
   {
     question: "Who is accountable for what X proposes?",
@@ -335,9 +335,9 @@ export const faqs: { question: string; answer: string }[] = [
       "In one of two places. Cloud / VPC: inside the cloud account or VPC you already run. Sovereign appliance: on an appliance you place with the system, when the mission cannot depend on a cloud outside your control. The eight are the same either way. An operator still signs. They stay.",
   },
   {
-    question: "What has to be in the mission?",
+    question: "What has to be in the brief?",
     answer:
-      "Who you are, the system at risk, where the team is brought in, the tempo, and the unknown. The team runs in your cloud or VPC, or on a sovereign appliance. Tempo is one of three: hours, days, or already inside. The mission is ready when those are specific enough for the team to take.",
+      "Who you are, the system at risk, where the team is brought in, the tempo, and the unknown. Deployment is cloud or VPC, or a sovereign appliance. Tempo is one of three: hours, days, or already inside. The brief is ready when those are specific enough for the team to take.",
   },
   {
     question: "Does this website send the brief anywhere?",
@@ -347,7 +347,7 @@ export const faqs: { question: string; answer: string }[] = [
   {
     question: "What is the difference between Mercenary and X?",
     answer:
-      "Mercenary is the company, and the platform you use to bring the team in. It keeps an operator accountable and brings the system back with a record. X is the mercenary team of agents. They are not the same actor, and the work depends on keeping them apart.",
+      "Mercenary is the company, and the platform you use to bring the team in. It keeps an operator accountable and hands you the record. X is the mercenary team of agents. They are not the same actor, and the work depends on keeping them apart.",
   },
   {
     question: "Why is the X ember?",
@@ -359,7 +359,7 @@ export const faqs: { question: string; answer: string }[] = [
 export const glossary: { term: string; text: string; agent?: boolean }[] = [
   {
     term: "Mercenary",
-    text: "The company, and the platform. You use it to bring a mercenary team of agents in to secure an app, data, or a system. An operator stays accountable for every action, and the system comes back with a record.",
+    text: "The company, and the platform. You use it to bring a mercenary team of agents in to secure an app, data, or a system. An operator stays accountable for every action, and you hold the record of all of it.",
   },
   {
     term: "X",
@@ -403,16 +403,20 @@ export const glossary: { term: string; text: string; agent?: boolean }[] = [
   },
   {
     term: "Vigil",
-    text: "Continuity. Vigil returns the system to you and keeps the watch. The team stays.",
+    text: "Continuity. Vigil keeps the system runnable and keeps the watch. The team stays.",
     agent: true,
   },
   {
-    term: "Engagement",
-    text: "The work you bring the team in to do. They stay on it. The system, the authority, and the record remain yours.",
+    term: "Mission",
+    text: "The security of the app, the data, or the system you named. It is not a project with an end date. The team stays on it.",
   },
   {
     term: "Brief",
-    text: "The mission: the named system, where the team is brought in, the tempo, and the unknown. The company accepts it. The team takes it.",
+    text: "What you send to start a mission: who you are, the system, where the team is brought in, the tempo, and the unknown. The company accepts it. The team takes it.",
+  },
+  {
+    term: "Engagement",
+    text: "The whole of it: you bring the team in, they hunt, hold, and keep the watch, and they stay. It begins with a brief and does not end with a hold.",
   },
   {
     term: "Deployment",
@@ -439,8 +443,8 @@ export const glossary: { term: string; text: string; agent?: boolean }[] = [
     text: "In the old model, a pattern an attacker has used before. Here, also the name on an action X proposed. The two meanings are kept apart on purpose.",
   },
   {
-    term: "Return",
-    text: "The system, the authority, and the record, back in your hands. The team stays on the mission.",
+    term: "Watch",
+    text: "The third movement, after hunt and hold. Vigil keeps it. The team stays on the system because a mind that can think does not try once.",
   },
 ];
 

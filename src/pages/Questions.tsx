@@ -30,7 +30,7 @@ export function Questions() {
         </p>
         <p className="page-next">
           <Link className="text-link" to="/access">
-            Send a brief
+            Bring the team
             <span aria-hidden="true">→</span>
           </Link>
         </p>

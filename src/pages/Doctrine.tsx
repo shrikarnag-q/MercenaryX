@@ -10,8 +10,8 @@ export function Doctrine() {
     <article className="page">
       <PageHeader
         kicker="Doctrine"
-        title="A mercenary stays on the mission."
-        lede="Hunt, hold, return. The team stays. Each movement ends in something you can hold, and they remain on the work."
+        title="Hunt, hold, watch."
+        lede="Three movements. Each one ends in something you can hold in your hands, and the team remains on the work after the last."
       />
       <div className="wrap">
         <div className="doctrine">

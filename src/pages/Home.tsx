@@ -25,7 +25,7 @@ const doors = [
     to: "/doctrine",
     number: "04",
     title: "Doctrine",
-    text: "Hunt, hold, return. The team stays on the mission.",
+    text: "Hunt, hold, watch. The team stays on the mission.",
   },
   {
     to: "/engagements",
